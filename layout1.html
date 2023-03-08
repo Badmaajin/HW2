@@ -1,0 +1,85 @@
+<!doctype html>    
+<html> 
+<head>    
+<title>Layout</title>    
+<meta charset="utf-8">  
+<style>  
+
+*{ margin:0; box-sizing:border-box;}
+
+body{
+    font:16px/1.3 sans-serif;
+    justify-content:center;
+    text-align: center;
+}
+
+.container{ 
+    width:1200px;
+    margin:auto;
+    text-align: center;
+}
+
+.header{
+    background:#faa;
+    padding:10px;
+    height: 100px;
+    text-align: center;
+    
+}
+.nav{
+    background:#333;
+    padding:10px;
+    color:#fff;
+    height: 100px;
+    text-align: center;
+}
+.main{
+    background:#afa;
+    height: 400px;
+    text-align: center;
+}
+.aside{
+    width: 25%;
+    float:right;
+    padding:10px;
+    background:#afa;
+    height: 400px;
+    text-align: center;
+}
+.section{
+    width: 75%;
+    float:left;
+    padding:10px;
+    background:#ccc;
+    height: 200px;
+    text-align: center;
+}
+.article{
+    width: 75%;
+    float:left;
+    padding:10px;
+    background:#a95f5f;
+    height: 200px;
+    text-align: center;
+}
+.footer{
+    background:#aaf;
+    padding:10px;
+    height: 100px;
+    text-align: center;
+}
+</style>  
+</head>    
+<body>    
+    <div class="container">  
+        <div class="header"> header </div>  
+        <div class="nav"> nav </div>  
+        <div class="main">
+            <div class="aside">aside</div>
+            <div class="section">section</div>
+            <div class="article">article</div>
+        </div>  
+        <div class="footer"> footer </div>  
+    </div>    
+</body>    
+</html>  
